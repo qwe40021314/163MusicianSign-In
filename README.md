@@ -6,3 +6,5 @@
 三、【重要】tools文件夹里面是驱动文件，你需要在你的电脑上下载对应你Chrome浏览器版本的驱动文件。  
   
 四、Chrome浏览器驱动文件下载地址：https://chromedriver.storage.googleapis.com/index.html
+
+![image](https://github.com/qwe40021314/163MusicianSign-In/assets/57536691/0ecad590-db0a-444a-b768-8bfe70764672)
