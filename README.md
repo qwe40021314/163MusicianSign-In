@@ -3,7 +3,7 @@
   
 二、🐒属于屎山代码，本人小白一枚，欢迎提问，代码供大家学习和改进。  
   
-三、<font color='Red'>【重要】</font>tools文件夹里面是驱动文件，你需要在你的电脑上下载对应你Chrome浏览器版本的驱动文件。  
+三、<font color=red>【重要】</font>tools文件夹里面是驱动文件，你需要在你的电脑上下载对应你Chrome浏览器版本的驱动文件。  
   
 四、Chrome浏览器驱动文件下载地址：https://chromedriver.storage.googleapis.com/index.html
   
