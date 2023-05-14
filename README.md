@@ -15,6 +15,11 @@
   
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;③解压包内exe的文件到tools文件夹内。  
   
-六、日志效果图：  
+六、需要下载selenium库，若下载困难，可选择国内源  
+```
+  pip install selenium -i https://pypi.douban.com/simple/
+```
+  
+七、日志效果图：  
   
 ![image](https://github.com/qwe40021314/163MusicianSign-In/assets/57536691/0ecad590-db0a-444a-b768-8bfe70764672)
