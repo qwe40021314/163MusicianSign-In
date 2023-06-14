@@ -4,24 +4,28 @@ from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
 
 print('---程序开始执行---')
-wd = webdriver.Chrome(service=Service(r'./tools/chromedriver.exe'))
+wd = webdriver.Chrome(service=Service(r'./tools/chromedriver.exe')) # 打开浏览器
+print('Info:Chrome浏览器已打开')
+
 wd.implicitly_wait(5)
-
-wd.get('https://music.163.com/musician/artist/home')
-# time.sleep(5)
-
+print('登陆页面一打开01')
+wd.get('https://music.163.com/musician/artist/home') # 打开该页面
+time.sleep(5)
+print('登陆页面一打开02')
 # 选择其他登陆模式按钮
 wd.switch_to.frame('g_iframe')
+print('选择g_iframe')
 wd.find_element(By.XPATH, '//*[@id="login-wrapper"]/div/div[2]/div/div/div/a').click()  # 选择其他方式登录<a>tag
 wd.find_element(By.XPATH, '//*[@id="j-official-terms"]').click()  # 勾选同意条款checkbox
-wd.find_element(By.XPATH,
-                '//*[@id="login-wrapper"]/div/div[2]/div/div/div/div[1]/div[2]/ul/li[4]/a').click()  # 选择使用邮箱登录
+wd.find_element(By.XPATH, '//*[@id="login-wrapper"]/div/div[2]/div/div/div/div[1]/div[2]/ul/li[4]/a').click()  # 选择使用邮箱登录
+time.sleep(5)
 wd.switch_to.default_content()
 # 使用邮箱登录
 wd.switch_to.frame(wd.find_element(By.CSS_SELECTOR, '[id^="x-URS-iframe"]'))  # 点击选择邮箱登录后 出现的 新frame
-wd.find_element(By.XPATH, '/html/body/div[2]/div[2]/div[2]/form/div/div[1]/div[2]/input').send_keys('你的邮箱')
-wd.find_element(By.XPATH, '/html/body/div[2]/div[2]/div[2]/form/div/div[3]/div[2]/input[2]').send_keys('你的密码')
+wd.find_element(By.XPATH, '/html/body/div[2]/div[2]/div[2]/form/div/div[1]/div[2]/input').send_keys('kb102499@163.com')
+wd.find_element(By.XPATH, '/html/body/div[2]/div[2]/div[2]/form/div/div[3]/div[2]/input[2]').send_keys('lKB4681382.')
 wd.find_element(By.XPATH, '/html/body/div[2]/div[2]/div[2]/form/div/div[8]/a').click()  # 点击登录按钮
+time.sleep(5)
 wd.switch_to.default_content()
 # 点登录之后，此时可能会跳转到新页面，也可能不跳转(网易BUG)
 while True:
@@ -62,7 +66,7 @@ except Exception:
 print('Info:即将关闭Chrome浏览器(3秒后)')
 time.sleep(3)
 wd.quit()
-print('Info:浏览器已关闭')
+print('Info:Chrome浏览器已关闭')
 
-print('---执行完毕，等待手动退出程序---')
-input()
+print('---执行完毕，正在自动退出程序---')
+# input()
