@@ -23,5 +23,5 @@
 五、【必备】需要下载Chrome浏览器，下载地址：https://www.google.cn/chrome/  
   
 六、日志效果图：  
-  
-![image](https://github.com/qwe40021314/163MusicianSign-In/assets/57536691/0ecad590-db0a-444a-b768-8bfe70764672)
+
+![image](https://github.com/qwe40021314/163MusicianSign-In/assets/57536691/e0b1034f-9092-4420-a6ff-3bdfadf0237f)
