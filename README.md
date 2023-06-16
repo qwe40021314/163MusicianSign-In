@@ -13,7 +13,7 @@
   
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;②下载其中一个对应你操作系统(linux32,linux64,mac,windows之一)的压缩包。  
   
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;③解压包内exe的文件到tools文件夹内。  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;③解压包内exe的文件到tools文件夹内（与我的那个exe文件进行替换）。  
   
 四、【必备】需要在Python中下载selenium库，若下载困难，可选择国内源  
 ```
