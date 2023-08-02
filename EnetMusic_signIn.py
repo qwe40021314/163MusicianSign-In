@@ -22,8 +22,8 @@ time.sleep(5)
 wd.switch_to.default_content()
 # 使用邮箱登录
 wd.switch_to.frame(wd.find_element(By.CSS_SELECTOR, '[id^="x-URS-iframe"]'))  # 点击选择邮箱登录后 出现的 新frame
-wd.find_element(By.XPATH, '/html/body/div[2]/div[2]/div[2]/form/div/div[1]/div[2]/input').send_keys('kb102499@163.com')
-wd.find_element(By.XPATH, '/html/body/div[2]/div[2]/div[2]/form/div/div[3]/div[2]/input[2]').send_keys('lKB4681382.')
+wd.find_element(By.XPATH, '/html/body/div[2]/div[2]/div[2]/form/div/div[1]/div[2]/input').send_keys('邮箱账号')
+wd.find_element(By.XPATH, '/html/body/div[2]/div[2]/div[2]/form/div/div[3]/div[2]/input[2]').send_keys('密码')
 wd.find_element(By.XPATH, '/html/body/div[2]/div[2]/div[2]/form/div/div[8]/a').click()  # 点击登录按钮
 time.sleep(5)
 wd.switch_to.default_content()
